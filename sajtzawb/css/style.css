@@ -1,0 +1,193 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	overflow-x: hidden;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+#pocetna{
+	width: 100%;
+	height: 941px;
+	background: url(../img/čišćenje_auta.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 0px -150px;
+	position: absolute;
+	filter: brightness(80%);
+}
+header {
+	color: #fff;
+	position: fixed;
+	width: 100%;
+	height: 150px;
+	z-index: 2;
+}
+.header_lista {
+	float: right;
+	padding: 50px 10px;
+	font-size: 40px;
+	list-style-type: none;
+	
+}
+#logo{
+	float: left;
+	margin: 24px 10px;
+	color: white;
+	font-size: 40px;
+}
+footer{
+	width: 100%;
+	height: 150px;
+	background-color: #393f4d;
+	position: fixed;
+	top: 791px;
+	color: white;}
+#dugme{
+	font-size: 40px;
+	position: relative;
+	top: 450px;
+	left: 856px;
+	padding: 3px 5px;
+	width: 150px;
+	color: #fff;
+	text-align: center; 
+	background-color: #393f4d;	
+	animation: background-color 3s infinite;
+}
+@keyframes background-color{
+	from{background-color: #72A0C1;}
+	to{background-color: #393f4d;}
+}
+#background {
+	width: 100%;
+	height: 941px;
+	background: url(../img/pranje_auta.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 0px -150px;
+	position: absolute;
+	filter: brightness(60%);
+}
+#background1 {
+	width: 100%;
+	height: 941px;
+	background: url(../img/sijanje_auta.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 0px -150px;
+	position: absolute;
+	filter: brightness(60%);
+}
+#background2 {
+	width: 100%;
+	height: 941px;
+	background: url(../img/felna_auta.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 0px -150px;
+	position: absolute;
+	filter: brightness(30%);
+}
+#background3 {
+	width: 100%;
+	height: 941px;
+	background: url(../img/usisavanje_auta.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 0px -150px;
+	position: absolute;
+	filter: brightness(60%);
+}
+a{
+	text-decoration: none;
+}
+.slike img {
+	position: relative;
+	width: 300px;
+	height: 230px;
+	top: 250px;
+	left: 510px;
+}
+
+
+
+#dugme:hover {
+  	color: black;
+	transition: .8s ease;
+	
+}
+header a{
+	color: white;
+	transition: .8s ease;
+}
+header a:hover {
+  	color: #72A0C1;
+
+}
+.cleaner{
+	clear: both;
+}
+.opcije1{
+	background-image: linear-gradient(to bottom right, black, grey);
+	z-index: 2;
+	width: 500px;
+	height: 550px;
+	float: right;
+	position: relative;
+	top: 200px;
+	margin: 0px 225px;
+	color: white;
+	text-align: center;
+	font-size: 20px;
+}
+.opcije1 img{
+	width: 450px;
+	height: 300px;
+	margin: 25px 25px;
+}
+.opcije1 a{
+	color: #72A0C1;
+	transition: .8s ease;
+}
+.opcije1 a:hover{
+	color: white;
+	
+}
+.prava{
+	text-align: center;
+	position: relative;
+	top: 124px;
+}
+table{
+	position: relative;
+	left: 670px;
+	font-size: 25px;
+	top: 20px;
+}
+input[type="submit"]{
+	width: 100px;
+	height: 40px;
+}
+input[type="text"]{
+	width: 150px;
+	height: 30px;
+}
+#ja {
+	position: relative;
+	color: white;
+	top: 300px;
+	text-align: center;
+}
+#kontakt{
+	text-align: center;
+	color: white;
+	font-size: 25px;
+	position: relative;
+	top: 400px;
+	line-height: 17px;
+}
+
+
